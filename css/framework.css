@@ -1,0 +1,243 @@
+/* box layout */
+.d-flex {
+  display: flex;
+}
+
+.just-sb {
+  justify-content: space-between;
+}
+
+.just-c {
+  justify-content: center;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.d-block {
+  display: block;
+}
+/* padding */
+.p-20 {
+  padding: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+/* margin */
+.m-20 {
+  margin: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+/* font */
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.f-italic {
+  font-style: italic;
+}
+
+.fs-l {
+  font-size: 32px;
+}
+
+.fs-m {
+  font-size: 24px;
+}
+
+.fs-n {
+  font-size: 16px;
+}
+
+.fs-s {
+  font-size: 15px;
+}
+
+.fs-ss {
+  font-size: 14px;
+}
+
+.fs-xs {
+  font-size: 13px;
+}
+
+.txt-c {
+  text-align: center;
+}
+/* colors */
+.bg-main {
+  background-color: #f1f5f9;
+}
+.bg-eee {
+  background-color: #eee;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.clr-white {
+  color: white;
+}
+
+.clr-light {
+  color: #888;
+}
+
+.clr-orange {
+  color: #f59e0b;
+}
+
+.clr-blue {
+  color: #0075ff;
+}
+
+.clr-green {
+  color: #22c55e;
+}
+
+.clr-red {
+  color: #f44336;
+}
+/* border radius */
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+
+/* layout */
+.ovflow-h {
+  overflow: hidden;
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* position */
+.pos-rel {
+  position: relative;
+}
+
+/* shapes */
+.btn {
+  display: block;
+  width: fit-content;
+  background-color: #0075ff;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: background-color var(--main-dur) linear;
+  -o-transition: background-color var(--main-dur) linear;
+  -moz-transition: background-color var(--main-dur) linear;
+  -webkit-transition: background-color var(--main-dur) linear;
+}
+
+.btn:hover {
+  background-color: var(--blue-alt-color);
+}
