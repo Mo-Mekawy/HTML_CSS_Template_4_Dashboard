@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Elzero web school template 3" />
+    <meta name="keywords" content="HTML-CSS, Responsive, Dashboard" />
+    <meta name="author" content="Mohamed Mekawy" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="page">
+      <aside class="page__sidebar bg-white">
+        <h2 class="sidebar__heading fw-700">Mekawy</h2>
+        <ul class="sidebar__links">
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span class="hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="page__content bg-main">
+        <div class="header d-flex just-sb align-c bg-white p-15">
+          <div class="form">
+            <input type="search" name="search" id="search" class="p-10" />
+            <label for="search" class="clr-light d-flex align-c">
+              <i
+                aria-hidden="true"
+                class="fa-solid fa-magnifying-glass fa-fw"
+              ></i>
+              <span class="fs-xs fw-600">Type A Keyword</span>
+            </label>
+          </div>
+          <div class="profile d-flex just-sb align-c">
+            <span class="notify"><i class="fa-regular fa-bell fa-lg"></i></span>
+            <a href="profile.html">
+              <img src="images/profile.webp" alt="avatar image" />
+            </a>
+          </div>
+        </div>
+        <h1 class="fs-l fw-700 m-20">Profile</h1>
+        <section
+          id="profile"
+          class="d-flex align-c rad-10 ovflow-h bg-white pb-20 pt-20 m-20"
+        >
+          <div class="card p-20 txt-c">
+            <img
+              class="d-block mb-10 profile-image"
+              src="images/profile.webp"
+              alt="avatar image"
+            />
+            <h2 class="user-name">Mohamed Mekawy</h2>
+            <p class="clr-light mb-15 mt-10">Level 20</p>
+            <div style="--level: 70%" class="level-bar rad-6 bg-eee"></div>
+            <span class="rate d-block">
+              <i class="fa-solid fa-star clr-orange fs-xs"></i>
+              <i class="fa-solid fa-star clr-orange fs-xs"></i>
+              <i class="fa-solid fa-star clr-orange fs-xs"></i>
+              <i class="fa-solid fa-star clr-orange fs-xs"></i>
+              <i class="fa-solid fa-star clr-orange fs-xs"></i>
+            </span>
+            <span class="clr-light fs-xs">550 Rating</span>
+          </div>
+          <div class="info-container w-full">
+            <div class="info border-b-ccc p-20">
+              <h4 class="clr-light fw-600 fs-s mb-10">General Information</h4>
+              <div class="details d-grid">
+                <div>
+                  <span class="key clr-light fs-ss">Full Name</span>
+                  <span class="fs-ss">Mohamed Mekawy</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Gender</span>
+                  <span class="fs-ss">Male</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Country</span>
+                  <span class="fs-ss">Egypt</span>
+                </div>
+                <div class="show-pub-tog">
+                  <label class="toggle">
+                    <input type="checkbox" checked />
+                    <div class="toggle__btn"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="info border-b-ccc p-20">
+              <h4 class="clr-light fw-600 fs-s mb-10">Personal Information</h4>
+              <div class="details d-grid">
+                <div>
+                  <span class="key clr-light fs-ss">Email</span>
+                  <span class="fs-ss">o@nn.sa</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Phone</span>
+                  <span class="fs-ss">019123456789</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Date Of Birth</span>
+                  <span class="fs-ss">25/10/1982</span>
+                </div>
+                <div class="show-pub-tog">
+                  <label class="toggle">
+                    <input type="checkbox" />
+                    <div class="toggle__btn"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="info border-b-ccc p-20">
+              <h4 class="clr-light fw-600 fs-s mb-10">Job Information</h4>
+              <div class="details d-grid">
+                <div>
+                  <span class="key clr-light fs-ss">Title</span>
+                  <span class="fs-ss">Full Stack Developer</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Programming Language</span>
+                  <span class="fs-ss">Python</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Years Of Experience</span>
+                  <span class="fs-ss">15+</span>
+                </div>
+                <div class="show-pub-tog">
+                  <label class="toggle">
+                    <input type="checkbox" checked />
+                    <div class="toggle__btn"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="info p-20">
+              <h4 class="clr-light fw-600 fs-s mb-10">Billing Information</h4>
+              <div class="details d-grid">
+                <div>
+                  <span class="key clr-light fs-ss">Payment Method</span>
+                  <span class="fs-ss">Paypal</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Email</span>
+                  <span class="fs-ss">email@website.com</span>
+                </div>
+                <div>
+                  <span class="key clr-light fs-ss">Subscription</span>
+                  <span class="fs-ss">Monthly</span>
+                </div>
+                <div class="show-pub-tog">
+                  <label class="toggle">
+                    <input type="checkbox" />
+                    <div class="toggle__btn"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="skills-activities d-flex gap-20 m-20">
+          <section id="my-skills" class="rad-10 ovflow-h bg-white p-20">
+            <div class="section__heading">
+              <h2 class="main__heading">My Skills</h2>
+              <p class="sub-heading">Complete Skills List</p>
+            </div>
+            <ul class="skills">
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">HTML</span>
+                <span class="btn-shape fs-ss bg-eee">Pugjs</span>
+                <span class="btn-shape fs-ss bg-eee">HAML</span>
+              </li>
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">CSS</span>
+                <span class="btn-shape fs-ss bg-eee">SASS</span>
+                <span class="btn-shape fs-ss bg-eee">Stylus</span>
+              </li>
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">JavaScript</span>
+                <span class="btn-shape fs-ss bg-eee">TypeScript</span>
+              </li>
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">Vuejs</span>
+                <span class="btn-shape fs-ss bg-eee">Reactjs</span>
+              </li>
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">Jest</span>
+                <span class="btn-shape fs-ss bg-eee">Jasmine</span>
+              </li>
+              <li class="border-b-ccc pt-15 pb-15">
+                <span class="btn-shape fs-ss bg-eee">PHP</span>
+                <span class="btn-shape fs-ss bg-eee">Laravel</span>
+              </li>
+              <li class="pt-15">
+                <span class="btn-shape fs-ss bg-eee">Python</span>
+                <span class="btn-shape fs-ss bg-eee">Django</span>
+              </li>
+            </ul>
+          </section>
+          <section id="latest-activities" class="rad-10 ovflow-h bg-white p-20">
+            <div class="section__heading">
+              <h2 class="main__heading">Latest Activities</h2>
+              <p class="sub-heading">Latest Activities Done By The User</p>
+            </div>
+            <ul class="activities">
+              <li
+                class="d-flex just-sb align-c gap-15 border-b-ccc pt-20 pb-20"
+              >
+                <div class="info d-flex gap-10 align-c">
+                  <img src="images/activity-01.webp" alt="home image" />
+                  <div class="text">
+                    <h4 class="fs-n fw-600 mb-10">Store</h4>
+                    <p class="clr-light">Bought The Mastering Python Course</p>
+                  </div>
+                </div>
+                <div class="date txt-c">
+                  <span class="d-block mb-10">18:10</span>
+                  <span class="d-block clr-light">Yesterday</span>
+                </div>
+              </li>
+              <li
+                class="d-flex just-sb align-c gap-15 border-b-ccc pt-20 pb-20"
+              >
+                <div class="info d-flex gap-10 align-c">
+                  <img src="images/activity-02.webp" alt="home image" />
+                  <div class="text">
+                    <h4 class="fs-n fw-600 mb-10">Academy</h4>
+                    <p class="clr-light">Got The PHP Certificate</p>
+                  </div>
+                </div>
+                <div class="date txt-c">
+                  <span class="d-block mb-10">16:05</span>
+                  <span class="d-block clr-light">Yesterday</span>
+                </div>
+              </li>
+              <li
+                class="d-flex just-sb align-c gap-15 border-b-ccc pt-20 pb-20"
+              >
+                <div class="info d-flex gap-10 align-c">
+                  <img src="images/activity-02.webp" alt="home image" />
+                  <div class="text">
+                    <h4 class="fs-n fw-600 mb-10">Badges</h4>
+                    <p class="clr-light">Unlocked The 10 Skills Badge</p>
+                  </div>
+                </div>
+                <div class="date txt-c">
+                  <span class="d-block mb-10">18:05</span>
+                  <span class="d-block clr-light">1 week ago</span>
+                </div>
+              </li>
+              <li class="d-flex just-sb align-c gap-15 pt-20 pb-20">
+                <div class="info d-flex gap-10 align-c">
+                  <img src="images/activity-02.webp" alt="home image" />
+                  <div class="text">
+                    <h4 class="fs-n fw-600 mb-10">Store</h4>
+                    <p class="clr-light">Bought The Typescript Course</p>
+                  </div>
+                </div>
+                <div class="date txt-c">
+                  <span class="d-block mb-10">12:05</span>
+                  <span class="d-block clr-light">1 month ago</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
